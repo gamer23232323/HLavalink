@@ -4,7 +4,16 @@ Credit to diniboy for sed script
 """
 
 from os import system, environ, popen
+from bot import MusicBot
 
+
+def main():
+    bot = MusicBot()
+    bot.run()
+
+
+if __name__ == "__main__":
+    main()
 
 class LavalinkBootstrap:
 
